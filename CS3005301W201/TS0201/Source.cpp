@@ -1,4 +1,5 @@
 #include <math.h>
+
 #include <iostream>
 #include <vector>
 
@@ -16,7 +17,7 @@ int main() {
             arr.push_back(num);
         }
 
-        double average            = sum / (double)n;
+        double average = sum / (double)n;
         // Calculate standard deviation
         double standard_deviation = 0;
         for (double i: arr) {
