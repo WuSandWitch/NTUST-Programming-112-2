@@ -1,1 +1,3 @@
-﻿
+﻿  Source.cpp
+C:\Users\wusan\Data\Development\NTUST-Programming-112-2\CS3005301W302\TS0304\Source.cpp(11,43): warning C4244: 'initializing': conversion from 'double' to 'unsigned __int64', possible loss of data
+  TS0304.vcxproj -> C:\Users\wusan\Data\Development\NTUST-Programming-112-2\CS3005301W302\x64\Debug\TS0304.exe
