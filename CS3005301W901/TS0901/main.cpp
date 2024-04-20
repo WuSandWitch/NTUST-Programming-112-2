@@ -3,30 +3,28 @@
 #include <vector>
 
 int main() {
+    std::string              input;
+    std::vector<std::string> data;
 
-	std::string input;
-	std::vector<std::string> data;
+    std::string result     = "";
+    int         max_length = 0;
 
-	std::string result = "";
-	int max_length = 0;
+    while (std::cin >> input) {
+        data.push_back(input);
 
+        std::string reversed_input = input;
+        std::reverse(reversed_input.begin(), reversed_input.end());
 
-	while (std::cin >> input) {
-		data.push_back(input);
+        auto f = std::find(data.begin(), data.end(), reversed_input);
 
-		std::string reversed_input = input;
-		std::reverse(reversed_input.begin(), reversed_input.end());
+        if (f == data.end()) {
+            continue;
+        }
 
-		auto f = std::find(data.begin(), data.end(), reversed_input);
-	
-		if (f == data.end()) {
-			continue;
-		}
-
-		if (reversed_input.length() > max_length) {
-			result = reversed_input;
-			max_length = reversed_input.length();
-		}
-	}
-	std::cout<<result << '\n';
+        if (reversed_input.length() > max_length) {
+            result     = reversed_input;
+            max_length = reversed_input.length();
+        }
+    }
+    std::cout << result << '\n';
 }

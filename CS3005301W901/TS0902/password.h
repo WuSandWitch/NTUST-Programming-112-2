@@ -1,12 +1,9 @@
-#include <iostream>
-#include <string>
 #include <ctype.h>
 
-namespace Authenticate
-{
-    std::string password;
+#include <iostream>
+#include <string>
 
-    void inputPassword();
-    std::string getPassword();
-}
-
+namespace Authenticate {
+void        inputPassword();
+std::string getPassword();
+}  // namespace Authenticate
