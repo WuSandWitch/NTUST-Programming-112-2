@@ -1,0 +1,7 @@
+﻿  PrivateSchool.cpp
+C:\Users\wusan\Data\Development\NTUST-Programming-112-2\ReOpenAccess2\TS1402\School.h(32,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+  PublicSchool.cpp
+C:\Users\wusan\Data\Development\NTUST-Programming-112-2\ReOpenAccess2\TS1402\School.h(32,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\wusan\Data\Development\NTUST-Programming-112-2\ReOpenAccess2\TS1402\PublicSchool.cpp(15,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Generating Code...
+  TS1402.vcxproj -> C:\Users\wusan\Data\Development\NTUST-Programming-112-2\ReOpenAccess2\x64\Debug\TS1402.exe
